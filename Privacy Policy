@@ -1,0 +1,46 @@
+# Privacy Policy of Gumshark
+## Information and relevant links
+
+> [GitHub](https://github.com/PxINKY)
+
+Gumshark is a public, privately owned Discord bot [Python 3.10](https://www.python.org/) + [Discord.py](https://discordpy.readthedocs.io/en/stable/) + [Gumroad API](https://gumroad.com/api) to create an API bridge for Gumroad and Discord. Allowing users to connect online purchases with in-server channels
+
+Gumshark was created by me (PxINKY); it started out as a passion project and evolved into a public bot that can be used in public/private Discord servers.
+
+
+### 1. Using Gumshark
+a. Gumshark has permission to collect the following information:
+
+* Guild name and ID
+
+* Guild user count
+
+* User commands/messages
+
+* Gumroad purchase license IDs
+
+
+### 2. Why this information?
+a. Guild name / ID
+
+* The use of collecting Guild names and IDs allows me to log the total number of servers that Gumshark is in.
+
+* This is used in the splash tag/descriptor on the bot's active status
+
+* Also, if the TOS of Gumshark is broken, this allows me to blacklist servers
+
+
+b. Guild user count
+
+* Allows for future implementations such as guild user count
+
+
+c. User commands/messages
+
+* Without the ability to read the message, Gumshark wouldn't be able to tell when receiving a command. As it allows the use of legacy commands in combination with slash commands
+
+
+d. Gumroad purchase license IDs
+
+* These are collected and stored alongside User IDs to link purchases to the Discord account. This prevents issues when a user changes their username. Additionally, this is logged for back-end reasons to make sure purchases aren't authenticated on multiple accounts.
+
